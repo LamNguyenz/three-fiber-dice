@@ -1,0 +1,23 @@
+.btn-wrap {
+  position: relative;
+  height: 62px;
+  cursor: pointer;
+}
+.btn-wrap:active {
+  transform: scale(0.96);
+}
+
+.btn-label {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Arial Black", "Arial Bold", sans-serif;
+  letter-spacing: 2px;
+  font-size: 25px;
+  color: #fff;
+  text-shadow: none;
+  z-index: 2;
+  pointer-events: none;
+}
